@@ -1,10 +1,13 @@
 {
   "name": "@pokemon-vgc-project/lib-proto",
   "version": "0.0.1",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "build:dev": "tsc",
+    "prepare": "npm run build && husky install",
     "commit": "cz",
-    "prepare": "husky install",
     "release": "standard-version",
     "release:beta": "npm run release -- --prerelease beta"
   },
@@ -12,13 +15,24 @@
   "author": "",
   "license": "ISC",
   "description": "",
-  "dependencies": {
+  "devDependencies": {
     "@commitlint/cli": "^19.3.0",
     "@commitlint/config-conventional": "^19.2.2",
+    "@typescript-eslint/eslint-plugin": "^7.16.1",
+    "@typescript-eslint/parser": "^7.16.1",
     "commitizen": "^4.3.0",
     "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
     "husky": "^9.1.0",
-    "standard-version": "^9.5.0"
+    "prettier": "^3.3.3",
+    "standard-version": "^9.5.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "copyfiles": "^2.4.1"
   },
   "config": {
     "commitizen": {
