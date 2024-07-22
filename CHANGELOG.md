@@ -9,6 +9,13 @@ All notable changes to this project will be documented in this file. See [standa
 
 * **sc-202:** add the pokemon's forms message ([15c81f0](https://github.com/pokemon-vgc-project/lib-proto/commit/15c81f0cc944a61bcf96e214e3e35f68bb0e7e11))
 
+### [0.0.3](https://github.com/pokemon-vgc-project/lib-proto/compare/v0.0.2...v0.0.3) (2024-07-22)
+
+
+### Features
+
+* **sc-202:** add the pokemon's forms message ([15c81f0](https://github.com/pokemon-vgc-project/lib-proto/commit/15c81f0cc944a61bcf96e214e3e35f68bb0e7e11))
+
 ### [0.0.2](https://github.com/pokemon-vgc-project/lib-proto/compare/v0.0.2-beta.0...v0.0.2) (2024-07-18)
 
 ### 0.0.2-beta.0 (2024-07-18)
