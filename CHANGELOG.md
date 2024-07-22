@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.5](https://github.com/pokemon-vgc-project/lib-proto/compare/v0.0.4...v0.0.5) (2024-07-22)
+
+
+### Bug Fixes
+
+* **sc-202:** solve the issue when execute the proto install ([f52dcda](https://github.com/pokemon-vgc-project/lib-proto/commit/f52dcdaf79aebb1e6d9941fac3b3755ffaac8e8e))
+
 ### [0.0.4](https://github.com/pokemon-vgc-project/lib-proto/compare/v0.0.2...v0.0.4) (2024-07-22)
 
 
