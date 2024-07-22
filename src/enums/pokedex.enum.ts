@@ -5,6 +5,7 @@ export enum PokedexServices {
 
 export enum PokemonServiceMethods {
   GET_POKEMON_TYPES = 'GetPokemonTypes',
+  GET_POKEMON_FORMS = 'GetPokemonForms',
 }
 
 export enum NatureServiceMethods {
