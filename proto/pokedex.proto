@@ -50,7 +50,7 @@ message NatureDto {
 // Pokemon Module
 service PokemonService {
   rpc GetPokemonTypes (GetTypesOptions) returns (ResponsePokemonTypesDto) {}
-  rpc GetPokemonForms (GetPokemonFormsOptions) return (ResponsePokemonFormsDto) {}
+  rpc GetPokemonForms (GetPokemonFormsOptions) returns (ResponsePokemonFormsDto) {}
 }
 
 message GetTypesOptions {
