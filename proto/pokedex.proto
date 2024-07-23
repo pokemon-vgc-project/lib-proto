@@ -14,6 +14,11 @@ message HealthCheckDto {
 }
 
 // Pagination
+message PaginationOptions {
+  optional int32 skip = 1;
+  optional int32 limit = 2;
+}
+
 message PaginationMeta {
   int32 page = 1;
   int32 skip = 2;
@@ -31,8 +36,7 @@ service NatureService {
 }
 
 message GetNaturesOptions {
-  optional int32 skip = 1;
-  optional int32 limit = 2;
+  optional PaginationOptions pagination = 1;
 }
 
 message ResponseNatureDto {
@@ -54,13 +58,11 @@ service PokemonService {
 }
 
 message GetTypesOptions {
-  optional int32 skip = 1;
-  optional int32 limit = 2;
+  optional PaginationOptions pagination = 1;
 }
 
 message GetPokemonFormsOptions {
-  optional int32 skip = 1;
-  optional int32 limit = 2;
+  optional PaginationOptions pagination = 1;
 }
 
 message ResponsePokemonTypesDto {
