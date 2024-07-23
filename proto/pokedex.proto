@@ -67,7 +67,7 @@ message NatureDto {
 service PokemonService {
   rpc GetPokemonTypes (GetTypesOptions) returns (ResponsePokemonTypesDto) {}
   rpc GetPokemonForms (GetPokemonFormsOptions) returns (ResponsePokemonFormsDto) {}
-  rpc GetPokemons (GetPokemonsOptions) returns ()
+  rpc GetPokemons (GetPokemonsOptions) returns (ResponsePokemonsDto) {}
 }
 
 // Pokemon Options
@@ -83,16 +83,16 @@ message GetPokemonsFilterOptions {
   optional FiltersRangeNumberOptions pokemonNum = 1;
   optional FiltersRangeNumberOptions heightm = 2;
   optional FiltersRangeNumberOptions weightkg = 3;
-  optional repeated int32 types = 4;
-  optional repeated int32 abilities = 5;
+  repeated int32 types = 4;
+  repeated int32 abilities = 5;
   optional string name = 6;
-  optional repeated string forms = 7; 
+  repeated string forms = 7; 
 }
 
 message GetPokemonsOptions {
   optional PaginationOptions pagination = 1;
   optional GetPokemonsFilterOptions filters = 2;
-  optional repeated SortOptions sorts = 3
+  repeated SortOptions sorts = 3;
 }
 
 // Pokemons Responses
