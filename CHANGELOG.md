@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.10](https://github.com/pokemon-vgc-project/lib-proto/compare/v0.0.9...v0.0.10) (2024-07-23)
+
+
+### Bug Fixes
+
+* **sc-200:** should have the name into PokemonDto message ([3a2d0ea](https://github.com/pokemon-vgc-project/lib-proto/commit/3a2d0ea0291c7a589d634f68ee65be957bcddf3d))
+
 ### [0.0.9](https://github.com/pokemon-vgc-project/lib-proto/compare/v0.0.8...v0.0.9) (2024-07-23)
 
 
