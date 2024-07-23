@@ -37,8 +37,8 @@ message FiltersRangeNumberOptions {
 
 // Sort
 message SortOptions {
-  string name;
-  string order;
+  string name = 1;
+  string order = 2;
 }
 
 
