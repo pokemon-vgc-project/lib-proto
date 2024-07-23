@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.7](https://github.com/pokemon-vgc-project/lib-proto/compare/v0.0.6...v0.0.7) (2024-07-23)
+
+
+### Bug Fixes
+
+* **sc-200:** solve the error on proto file ([df223cc](https://github.com/pokemon-vgc-project/lib-proto/commit/df223cc8f5bfed8669ff968fe48c36fda9b3d53c))
+
 ### [0.0.6](https://github.com/pokemon-vgc-project/lib-proto/compare/v0.0.5...v0.0.6) (2024-07-23)
 
 
