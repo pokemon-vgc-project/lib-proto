@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.9](https://github.com/pokemon-vgc-project/lib-proto/compare/v0.0.8...v0.0.9) (2024-07-23)
+
+
+### Features
+
+* **sc-200:** add the type prop into PokemonAbility message ([95c4b14](https://github.com/pokemon-vgc-project/lib-proto/commit/95c4b149b99b4d91cac7c136a9fefa7cf6383cc0))
+
 ### [0.0.8](https://github.com/pokemon-vgc-project/lib-proto/compare/v0.0.7...v0.0.8) (2024-07-23)
 
 
