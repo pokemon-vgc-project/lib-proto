@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.11](https://github.com/pokemon-vgc-project/lib-proto/compare/v0.0.10...v0.0.11) (2024-07-23)
+
+
+### Bug Fixes
+
+* **sc-200:** change the filter number types to float ([dc33aaa](https://github.com/pokemon-vgc-project/lib-proto/commit/dc33aaa5488bf6150c04382fa79a2ebe4cc32eea))
+
 ### [0.0.10](https://github.com/pokemon-vgc-project/lib-proto/compare/v0.0.9...v0.0.10) (2024-07-23)
 
 
