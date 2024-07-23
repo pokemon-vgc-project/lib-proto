@@ -77,3 +77,30 @@ message PokemonTypeDto {
   int32 id = 1;
   string name = 2;
 }
+
+message PokemonBaseStats {
+  int32 hp = 1;
+  int32 atk = 2;
+  int32 def = 3;
+  int32 spa = 4;
+  int32 spd = 5;
+  int32 spe = 6;
+}
+
+message PokemonAbility {
+  int32 id = 1;
+  string name = 2;
+  string description = 3;
+}
+
+message PokemonDto {
+  int32 id = 1;
+  int32 num = 2;
+  optional string form = 3;
+  optional int32 baseSpeciesId = 4;
+  optional int32 heightm = 5;
+  optional int32 weightkg = 6;
+  repeated string types = 7;
+  PokemonBaseStats baseStats = 8;
+  repeated PokemonAbility abilities = 9;
+}
