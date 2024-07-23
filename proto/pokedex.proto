@@ -131,6 +131,7 @@ message PokemonAbility {
   int32 id = 1;
   string name = 2;
   string description = 3;
+  string type = 4;
 }
 
 message PokemonDto {
