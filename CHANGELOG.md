@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.12](https://github.com/pokemon-vgc-project/lib-proto/compare/v0.0.11...v0.0.12) (2024-07-23)
+
+
+### Bug Fixes
+
+* **sc-200:** add the weightkg and heightm as float ([f201fe7](https://github.com/pokemon-vgc-project/lib-proto/commit/f201fe76388d62fb081f360f93a35e5d14029fe2))
+
 ### [0.0.11](https://github.com/pokemon-vgc-project/lib-proto/compare/v0.0.10...v0.0.11) (2024-07-23)
 
 
