@@ -31,8 +31,8 @@ message PaginationMeta {
 
 // Filters
 message FiltersRangeNumberOptions {
-  int32 start = 1;
-  optional int32 end = 2;
+  optional float start = 1;
+  optional float end = 2;
 }
 
 // Sort
