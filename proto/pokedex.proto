@@ -140,8 +140,8 @@ message PokemonDto {
   string name = 3;
   optional string form = 4;
   optional int32 baseSpeciesId = 5;
-  optional int32 heightm = 6;
-  optional int32 weightkg = 7;
+  optional float heightm = 6;
+  optional float weightkg = 7;
   repeated string types = 8;
   PokemonBaseStats baseStats = 9;
   repeated PokemonAbility abilities = 10;
